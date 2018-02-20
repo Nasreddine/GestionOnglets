@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">GestionOnglets</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <string name="titre_section0">Minéraux</string>
+    <string name="titre_section1">Végétaux</string>
+    <string name="titre_section2">Animaux</string>
+</resources>
