@@ -4,7 +4,7 @@ package com.sc.gestiononglets;
  * Created by nasredine on 20/02/2018.
  */
 
-import android.app.Fragment;
+import android.support.v4.app.Fragment;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -52,7 +52,7 @@ public class NatureFragment extends Fragment {
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_main, container, false);
-        TextView tvLabel = (TextView) view.findViewById(R.id.tvLabel);
+        TextView tvLabel = (TextView) view.findViewById(R.id.section_label);
         tvLabel.setText(page + " -- " + title);
 
         return view;

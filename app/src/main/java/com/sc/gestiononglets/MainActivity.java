@@ -41,6 +41,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
+        // add
         setSupportActionBar(toolbar);
         // Create the adapter that will return a fragment for each of the three
         // primary sections of the activity.
@@ -112,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
             }
             return null;
 
-            return PlaceholderFragment.newInstance(position + 1);
+           // return PlaceholderFragment.newInstance(position + 1);
         }
 
         @Override
